@@ -3,7 +3,7 @@
 #include <opencv2/imgproc/imgproc.hpp>
 #include <thread>         // std::thread
 #include <iostream> // std::cout
-#include "FPS.h"
+#include "FPS.hpp"
 /*
 g++ -DCAMEDEV=0 capth.cpp `pkg-config --libs --cflags opencv` -lFPS -std=gnu++11  -pthread -o capth
 */
